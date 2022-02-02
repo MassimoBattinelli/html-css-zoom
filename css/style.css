@@ -42,14 +42,17 @@ html {
 
 .membro{
     border: 1px solid red;
-    width: 20%;
+    width: calc(100% - 20%);
     height: 20%;
+    margin: 10px;
 }
 .membro > img{
-    /* width: 40%; */
+     width: 50%;
 }
 
 .nome-membro{
-    float: left;
-    position: relative;
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    border: 1px solid green;
 }
