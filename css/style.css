@@ -24,3 +24,20 @@ html {
     font-size: 12px;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.membro{
+    width: 10%;
+    height: 10%;
+}
+
+.membro img{
+    border: 1px solid red;
+    width: 50vh;
+    margin: 10px 10px;
+}
+
