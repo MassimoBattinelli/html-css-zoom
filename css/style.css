@@ -24,25 +24,17 @@ html {
     font-size: 12px;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .galleria{
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
-    margin-top: 20px;
-    border: 1px solid red;
     flex-wrap: wrap;
+    background-color: black;
 }
 
 
 .membro{
-    border: 1px solid red;
     width: 240px;
     height: 140px;
     margin: 5px;
