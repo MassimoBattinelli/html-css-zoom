@@ -13,6 +13,8 @@ html {
     justify-content: flex-end;
     background-color: black;
     width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 .btn-1, .btn-2{
@@ -59,6 +61,8 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: #222222;
+    position: relative;
+    z-index: 2;
 }
 
 .primaparte {
