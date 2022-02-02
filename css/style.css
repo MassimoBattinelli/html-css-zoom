@@ -58,12 +58,65 @@ html {
 footer{
     display: flex;
     justify-content: space-between;
+    background-color: #222222;
 }
 
 .primaparte {
     display: flex;
+    color: white;
+    text-align: center;
+    padding: 0.3em;
 }
 
 .secondaparte{
     display: flex;
+    color: white;
+    text-align: center;
+    padding: 0.3em;
+}
+
+.invita{
+    margin-right: 10px;
+}
+
+.manage{
+    margin-right: 10px;
+}
+
+.polling{
+    margin-right: 10px;
+}
+
+.share{
+    margin-right: 10px;
+}
+
+.angle{
+    margin-right: 10px;
+}
+
+.record{
+    margin-right: 10px;
+}
+
+.room{
+    margin-right: 10px;
+}
+
+.fa-share-square{
+    color: greenyellow;
+}
+
+.terzaparte, div{
+    color: white;
+}
+
+.endmeet{
+    background-color: #4A4A4A;
+    padding: 1em;
+    color: red;
+}
+
+.angle{
+    margin: 10px;
 }
