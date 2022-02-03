@@ -33,6 +33,7 @@ html {
     height: 100%;
     flex-wrap: wrap;
     background-color: black;
+    overflow-y: auto;
 }
 
 
@@ -61,8 +62,10 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: #222222;
-    position: relative;
-    z-index: 2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .primaparte {
